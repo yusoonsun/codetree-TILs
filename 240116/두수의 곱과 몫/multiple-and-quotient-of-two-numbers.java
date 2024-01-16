@@ -7,7 +7,7 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        System.out.println(a + " * " + b + " = " + 1500);
-        System.out.println(a + " / " + b + " = " + 60);
+        System.out.println(a + " * " + b + " = " + a * b);
+        System.out.println(a + " / " + b + " = " + a / b);
     }
 }
