@@ -10,7 +10,7 @@ public class Main {
             System.out.println("pass");
         }
         else {
-            System.out.println(" more score");
+            System.out.println((80 - a) + " more score");
         }
             
 
