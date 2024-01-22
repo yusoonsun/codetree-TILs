@@ -4,13 +4,13 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int a = sc.nextInt();
+        int n = sc.nextInt();
 
-        if(a >= 3000)
+        if(n >= 3000)
             System.out.println("book");
-        else if(a >= 1000)
+        else if(n < 1000 && n < 3000)
             System.out.println("mask");
-        else if(a==0)
+        else if(n == 0)
             System.out.println("no");
     }
 }
