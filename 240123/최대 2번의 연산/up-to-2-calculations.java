@@ -8,9 +8,11 @@ public class Main {
 
         a = sc.nextInt();
 
-        if (a % 2 == 0)
+        if (a % 2 == 0) {
             a = (a / 2);
-        if (a % 2 != 0)
+        }
+        if (a % 2 != 0) {
             System.out.println((a + 1) / 2);
+        }
     }
 }
