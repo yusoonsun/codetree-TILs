@@ -9,7 +9,7 @@ public class Main {
         int BM = sc.nextInt();
         int BE = sc.nextInt();
 
-        if(AM>=BM&&AE>=BE)
+        if(AM >= BM && AE >= BE)
             System.out.println(1);
         else
             System.out.print(0);
