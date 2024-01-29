@@ -8,6 +8,11 @@ public class Main {
         int b = sc.nextInt();
         int c = sc.nextInt();
 
-        System.out.print((a <= b && a <= c) ? a : b < c ? b : c);
+        if(a<=b && a<=c)
+            System.out.println(a);
+        else if(b<=a && b<=c)
+            System.out.println(b);
+        else 
+                System.out.println(c);
+        }
     }
-}
